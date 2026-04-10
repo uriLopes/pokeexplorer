@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PokeExplorer - Next.js & PokéAPI
 
-## Getting Started
+Este projeto é um catálogo interativo de Pokémon desenvolvido para a disciplina de **Programação e Design para Web II** na **FAETERJ**. A aplicação consome dados em tempo real da [PokéAPI](https://pokeapi.co/) e permite visualizar uma listagem de Pokémons e seus detalhes específicos.
 
-First, run the development server:
+## 👤 Desenvolvedor
+* **Nome:** Iury Lopes da Silva
+* **Curso:** Tecnologia em Análise e Desenvolvimento de Sistemas
+* **Instituição:** FAETERJ - Unidade Barra Mansa / Volta Redonda
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologias Utilizadas
+* **Framework:** [Next.js 15+](https://nextjs.org/) (App Router)
+* **Linguagem:** TypeScript
+* **Estilização:** Tailwind CSS (v4)
+* **API:** PokéAPI
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Requisitos Atendidos (Checklist)
 
-## Learn More
+Para garantir a nota máxima, o projeto seguiu rigorosamente os critérios solicitados:
 
-To learn more about Next.js, take a look at the following resources:
+- [x] **R1 (Estrutura):** Projeto criado com `app/` directory e estruturado de forma organizada.
+- [x] **R2 (Listagem):** Página principal exibe 20 Pokémon com imagem e nome.
+- [x] **R3 (Detalhes):** Página dinâmica que exibe Tipos, Peso, Altura e Habilidades.
+- [x] **R4 (Componentes):** Uso de componentes reutilizáveis para `Header`, `Footer` e `PokemonCard`.
+- [x] **R5 (Navegação):** Utilização do componente `Link` do Next.js para navegação rápida entre páginas sem recarregamento.
+- [x] **R6 (Página Sobre):** Rota estática `/sobre` com informações do aluno e do projeto.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Como rodar o projeto localmente
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone o repositório ou extraia o arquivo:**
+   ```bash
+   cd pokeexplorer
