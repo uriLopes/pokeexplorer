@@ -6,11 +6,19 @@ export default function SobrePage() {
         <p><strong>Aluno:</strong> Iury Lopes da Silva</p>
         <p><strong>Curso:</strong> Tecnologia em Análise e Desenvolvimento de Sistemas</p>
         <p className="pt-4 border-t">
-          Este projeto é o <strong>PokeExplorer</strong>, um catálogo interativo desenvolvido 
-          como trabalho prático para a disciplina de Programação e Design para Web II.
+          Este projeto é o <strong>PokeExplorer</strong>, uma aplicação Full Stack para
+          gerenciamento de Cards Pokémon, desenvolvida como trabalho prático para a
+          disciplina de Programação e Design para Web II.
         </p>
         <p>
-          Utiliza <strong>Next.js</strong> com App Router e consome dados em tempo real da PokéAPI.
+          A aplicação permite que cada usuário crie sua própria conta, faça login de
+          forma segura e gerencie sua coleção pessoal de Cards Pokémon (criar, listar,
+          editar, excluir e buscar por nome).
+        </p>
+        <p>
+          Construído com <strong>Next.js</strong> (App Router), <strong>Prisma ORM</strong>,
+          banco de dados <strong>NeonDB (PostgreSQL)</strong> e autenticação com{" "}
+          <strong>NextAuth</strong>.
         </p>
       </div>
     </div>
